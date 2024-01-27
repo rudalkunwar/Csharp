@@ -8,14 +8,14 @@ public class JaggedArray{
             int arrlength = Convert.ToInt32(Console.ReadLine());
             names[i]=new string[arrlength];
             Console.WriteLine($"Input length of the array : {i+1}");
-            for(j=0;j<names[i].Length;j++){
+            for(int j=0;j<names[i].Length;j++){
                 names[i][j] = Console.ReadLine();
             }
         }
           Console.WriteLine("The required Array:");
         for(int i = 0 ; i<2;i++){
 
-            for(j=0;j<names[i].Length;j++){
+            for(int j=0;j<names[i].Length;j++){
                 Console.Write(names[i][j]);
             }
             Console.WriteLine();
