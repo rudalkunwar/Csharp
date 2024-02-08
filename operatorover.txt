@@ -1,0 +1,21 @@
+/*
+-C#,operator overloading is a compile time polymorphism 
+-a special function called operator function is used for overloading 
+-all unary and binary operators have pre-defined implementation.that are automatically avaliable in any experssion
+-in addition to this userdefined implementations can aslo be introduced in c#
+
+#operatior than can be overloaded
++   -   * /  % . & , | , << , >>  binary
++ - ! ~ ++ , -- unary 
+== ,!=, < ,> >=, <= relational
+
+
+
+note 
+-operatior keyword is used while implementing operator overloading
+-return type of the overloaded operator cannot be kept void 
+-the overloaded method should always have different set of arguments
+-the operator function must be public and static
+
+
+*/
