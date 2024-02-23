@@ -1,9 +1,13 @@
 using System;
 public class Prop{
-    private int x{get,set}; 
+    private int x; 
+    public int X{
+        set{x = value;}
+        get{return x;}
+    }
     public static void Main(string[] args){
         Prop p = new Prop();
-        p.x = 10;
-        Console.WriteLine("the value is 0"+p.x);
+        p.X = 10;
+        Console.WriteLine("the value is"+p.X);
     }
 }
