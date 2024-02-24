@@ -14,7 +14,7 @@ public class Recur{
 
         Recur r = new Recur();
         int value = r.recur(x);
-        Console.WriteLine("The factorial value"+value);
+        Console.WriteLine("The factorial value "+value);
 
     }
 }
