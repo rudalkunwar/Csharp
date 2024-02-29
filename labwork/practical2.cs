@@ -1,5 +1,5 @@
 using System;
-public class Practical2{
+public class Practical{
     public static void Main(string[] args){
         Console.WriteLine("Enter the radius of the outer circle");
         double R = Convert.ToDouble(Console.ReadLine());

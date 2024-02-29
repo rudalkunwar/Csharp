@@ -1,5 +1,5 @@
 using System;
-public class Practical5{
+public class Practical{
      public static int reverseNumber(int num){
             int rem , rev = 0;
             while(num!=0){

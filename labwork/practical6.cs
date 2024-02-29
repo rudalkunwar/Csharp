@@ -1,5 +1,5 @@
 using System;
-public class Practical6{
+public class Practical{
     public static void Main(string[] args){
         Console.WriteLine("Enter the time in seconds");
         int time = Convert.ToInt32(Console.ReadLine());

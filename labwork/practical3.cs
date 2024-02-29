@@ -1,5 +1,5 @@
 using System;
-public class Practical3{
+public class Practical{
     public static void Main(string[] args){
         //sum = 1+2/2!+3/3!+4/4!+5/5!+..n
         Console.WriteLine("Enter the value of n");

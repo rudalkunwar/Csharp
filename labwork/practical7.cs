@@ -1,5 +1,5 @@
 using System;
-public class Practical7{
+public class Practical{
     public static void Main(string[] args){
 
         Console.WriteLine("Enter First number: a");

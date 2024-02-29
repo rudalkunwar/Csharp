@@ -1,5 +1,5 @@
 using System;
-public class Practical2{
+public class Practical{
     public static void Main(string[] args){
         Console.WriteLine("Enter the length of Array");
         int len = Convert.ToInt32(Console.ReadLine());

@@ -1,5 +1,5 @@
 using System;
-public class Practical4{
+public class Practical{
     public static void Main(string[] args){
        Console.WriteLine("Enter the number :");
        int num = Convert.ToInt32(Console.ReadLine());
